@@ -12,4 +12,7 @@ public class GreeterClass {
 		name = xName;
 		age = xAge;
 	}
+	public String toString(){
+		return name + age;
+	}
 }
